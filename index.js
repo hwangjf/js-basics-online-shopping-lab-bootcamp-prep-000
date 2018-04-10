@@ -54,7 +54,13 @@ function removeFromCart(item) {
       a = true
     }
   }
-  if ( a === true) { 
+  if ( a === true) {
+    for (var y = 0; y < cart.length; y++) {
+      cart.splice(y,1)
+      return cart
+    } else {
+      return ""
+    }
     
   }
   
