@@ -55,7 +55,7 @@ function removeFromCart(item) {
     }
   }
   if ( a === true) {
-    delete test
+    delete test.item
     } else {
       return "That item is not in your cart."
     }
