@@ -58,12 +58,10 @@ function removeFromCart(item) {
     for (var y = 0; y < cart.length; y++) {
       cart.splice(y,1)
       return cart
+    } 
     } else {
-      return ""
+      return "That item is not in your cart"
     }
-    
-  }
-  
 }
 
 function placeOrder(cardNumber) {
