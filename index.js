@@ -60,7 +60,7 @@ function removeFromCart(item) {
   if (z === true) {
     return cart
   } else {
-    "That item is not in your cart."
+    return "That item is not in your cart."
   }
 }
 
