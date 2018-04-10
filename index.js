@@ -51,12 +51,14 @@ function removeFromCart(item) {
   let a = false;
   for ( var i = 0 ; i < cart.length; i ++) {
     if (item === cart[i].itemName) {
-      delete cart[i]
-      return cart
+        a = true
+    }
+  }
+  if ( a === true) {
+    delete cart.item
     } else {
       return "That item is not in your cart."
-}
-}
+    }
 }
 
 function placeOrder(cardNumber) {
