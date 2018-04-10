@@ -55,10 +55,7 @@ function removeFromCart(item) {
     }
   }
   if ( a === true) {
-    for (var y = 0; y < cart.length; y++) {
-      cart.splice(y,1)
-      return cart
-    } 
+    delete.test
     } else {
       return "That item is not in your cart."
     }
